@@ -292,7 +292,8 @@ class BayesianGameModel:
             results[strategy] = {}
             
             for outcome, var_name in zip(outcomes, var_names):
-                posterior_samples = az.extract(self.trace, var_names=[var_name])[var_name].values
+                # Use posterior directly instead of az.extract
+                posterior_samples = self.trace.posterior[var_name].values.flatten()
                 
                 mean_val = np.mean(posterior_samples)
                 lower_ci = np.percentile(posterior_samples, 2.5)
@@ -301,7 +302,7 @@ class BayesianGameModel:
                 results[strategy][outcome] = (mean_val, lower_ci, upper_ci)
             
             # Add nuclear breakout (same for all strategies in this model)
-            nuclear_samples = az.extract(self.trace, var_names=["p_nuclear"])["p_nuclear"].values
+            nuclear_samples = self.trace.posterior["p_nuclear"].values.flatten()
             nuclear_mean = np.mean(nuclear_samples)
             nuclear_lower = np.percentile(nuclear_samples, 2.5)
             nuclear_upper = np.percentile(nuclear_samples, 97.5)

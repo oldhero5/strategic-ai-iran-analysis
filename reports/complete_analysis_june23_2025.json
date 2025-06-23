@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-06-23T17:57:18.683253",
+  "crisis_state": {
+    "regime_cohesion": 0.4,
+    "economic_stress": 0.95,
+    "nuclear_progress": 0.92,
+    "proxy_support": 0.2,
+    "external_support": 0.25,
+    "oil_price": 135.0
+  },
+  "strategies": {
+    "halt_deter_diplomacy": {
+      "name": "halt_deter_diplomacy",
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.9632415449913193,
+          "ci_lower": 0.9239193562051347,
+          "ci_upper": 0.9903811284214696
+        },
+        "limited_retaliation": {
+          "probability": 0.6542231946137165,
+          "ci_lower": 0.5784671618867594,
+          "ci_upper": 0.7503887453008811
+        },
+        "frozen_conflict": {
+          "probability": -1.8308101682219566,
+          "ci_lower": -2.5176735963666306,
+          "ci_upper": -1.207065667881035
+        },
+        "full_war": {
+          "probability": 0.81321982782762,
+          "ci_lower": 0.4020158638669719,
+          "ci_upper": 0.980354387275044
+        },
+        "nuclear_breakout": {
+          "probability": 0.4001256007893007,
+          "ci_lower": 0.090313535115941,
+          "ci_upper": 0.9846691116338065
+        }
+      },
+      "expected_utility": -0.26692228549642205,
+      "risk_score": 1.2133454286169207,
+      "deal_probability": 0.9632415449913193,
+      "war_probability": 0.81321982782762,
+      "nuclear_probability": 0.4001256007893007
+    },
+    "halt_deter_ultimatum": {
+      "name": "halt_deter_ultimatum",
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.9072487048254568,
+          "ci_lower": 0.8171013420637784,
+          "ci_upper": 0.9742783223560557
+        },
+        "limited_retaliation": {
+          "probability": 0.5354410999469974,
+          "ci_lower": 0.4542493522440603,
+          "ci_upper": 0.6458134501654457
+        },
+        "frozen_conflict": {
+          "probability": -1.4942322221852036,
+          "ci_lower": -2.2577825205752107,
+          "ci_upper": -0.8188029242415732
+        },
+        "full_war": {
+          "probability": 0.6514168166234489,
+          "ci_lower": 0.1713588777756138,
+          "ci_upper": 0.9553767228979809
+        },
+        "nuclear_breakout": {
+          "probability": 0.4001256007893007,
+          "ci_lower": 0.090313535115941,
+          "ci_upper": 0.9846691116338065
+        }
+      },
+      "expected_utility": -0.18425098246211546,
+      "risk_score": 1.0515424174127497,
+      "deal_probability": 0.9072487048254568,
+      "war_probability": 0.6514168166234489,
+      "nuclear_probability": 0.4001256007893007
+    },
+    "expand_strikes_diplomacy": {
+      "name": "expand_strikes_diplomacy",
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.8573638910148716,
+          "ci_lower": 0.7304350419651336,
+          "ci_upper": 0.9582881354913342
+        },
+        "limited_retaliation": {
+          "probability": 0.8363394887637127,
+          "ci_lower": 0.7885961573237934,
+          "ci_upper": 0.8909698678457496
+        },
+        "frozen_conflict": {
+          "probability": -2.032346484853218,
+          "ci_lower": -2.620635767308925,
+          "ci_upper": -1.6138626500842204
+        },
+        "full_war": {
+          "probability": 0.938517504285333,
+          "ci_lower": 0.7299337734845658,
+          "ci_upper": 0.9965687619934667
+        },
+        "nuclear_breakout": {
+          "probability": 0.4001256007893007,
+          "ci_lower": 0.090313535115941,
+          "ci_upper": 0.9846691116338065
+        }
+      },
+      "expected_utility": -0.4173812932618778,
+      "risk_score": 1.3386431050746337,
+      "deal_probability": 0.8573638910148716,
+      "war_probability": 0.938517504285333,
+      "nuclear_probability": 0.4001256007893007
+    },
+    "expand_strikes_ultimatum": {
+      "name": "expand_strikes_ultimatum",
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.6976897747128452,
+          "ci_lower": 0.4992077288033426,
+          "ci_upper": 0.8941984817790347
+        },
+        "limited_retaliation": {
+          "probability": 0.7565794252028479,
+          "ci_lower": 0.6934895025149046,
+          "ci_upper": 0.8321143068084573
+        },
+        "frozen_conflict": {
+          "probability": -1.71105491514697,
+          "ci_lower": -2.3301113039922705,
+          "ci_upper": -1.1677907646760153
+        },
+        "full_war": {
+          "probability": 0.856660114441976,
+          "ci_lower": 0.4567381715185306,
+          "ci_upper": 0.9917162649758151
+        },
+        "nuclear_breakout": {
+          "probability": 0.4001256007893007,
+          "ci_lower": 0.090313535115941,
+          "ci_upper": 0.9846691116338065
+        }
+      },
+      "expected_utility": -0.47143353652644804,
+      "risk_score": 1.2567857152312767,
+      "deal_probability": 0.6976897747128452,
+      "war_probability": 0.856660114441976,
+      "nuclear_probability": 0.4001256007893007
+    }
+  },
+  "optimal_strategy": "halt_deter_ultimatum",
+  "key_findings": {
+    "nuclear_breakout_timeline": "2-3 days",
+    "iran_uranium_stockpile": "408kg of 60% enriched uranium",
+    "optimal_strategy": "halt_deter_ultimatum",
+    "optimal_deal_probability": 0.9072487048254568,
+    "optimal_war_risk": 0.6514168166234489,
+    "decision_window": "24-72 hours",
+    "iran_signal": "Advance warning on Qatar strike suggests controlled escalation"
+  },
+  "sources": [
+    {
+      "title": "Iran launches missiles at US military base in Qatar",
+      "source": "AP News",
+      "url": "https://apnews.com/article/israel-iran-war-nuclear-trump-bomber-news-06-23-2025",
+      "date": "June 23, 2025"
+    },
+    {
+      "title": "Analysis of IAEA Iran Verification and Monitoring Report",
+      "source": "Institute for Science and International Security",
+      "url": "https://isis-online.org/isis-reports/analysis-of-iaea-iran-verification-and-monitoring-report-may-2025/",
+      "date": "May 2025"
+    },
+    {
+      "title": "Iran says it will create a new uranium enrichment facility",
+      "source": "NPR",
+      "url": "https://www.npr.org/2025/06/12/nx-s1-5431395/iran-nuclear-enrichment-un-compliance",
+      "date": "June 12, 2025"
+    }
+  ]
+}

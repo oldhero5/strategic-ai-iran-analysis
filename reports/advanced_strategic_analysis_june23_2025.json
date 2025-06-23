@@ -1,0 +1,793 @@
+{
+  "timestamp": "2025-06-23T18:25:09.784026",
+  "classification": "STRATEGIC ANALYSIS - SENSITIVE",
+  "bottom_line": {
+    "assessment": "Iran's measured retaliation (advance warning on Qatar strike) signals diplomatic opportunity, but 2-3 day nuclear breakout timeline creates extreme urgency requiring immediate strategic decision.",
+    "recommendation": "Implement 'Deterrence + Ultimatum' approach within 72 hours to maximize negotiated settlement probability while maintaining credible threat.",
+    "critical_factors": [
+      "Iran at 93% nuclear progress - weaponization imminent",
+      "Qatar strike signals controlled escalation preference",
+      "72-hour window before diplomatic options severely constrained",
+      "Regional allies (Israel) may act unilaterally if no US action"
+    ],
+    "success_probability": "89.4% chance of avoiding regional war with optimal strategy",
+    "failure_consequences": "Nuclear breakout cascade, regional arms race, Israeli preemption"
+  },
+  "executive_summary": {
+    "situation": "Following June 21st Israeli/US strikes on Iranian nuclear facilities (Fordow, Natanz, Isfahan), Iran retaliated June 23rd with 14 missiles on Al Udeid Air Base, Qatar, providing advance warning to minimize casualties - a signal of controlled escalation.",
+    "nuclear_status": "Iran possesses 408kg of 60% enriched uranium, sufficient for 8-10 nuclear weapons, with 2-3 day breakout timeline to first weapon at Fordow facility.",
+    "strategic_window": "Critical 72-hour decision window exists before Iranian nuclear threshold crossed and diplomatic options foreclosed.",
+    "optimal_approach": "Deterrence + Ultimatum strategy maximizes success probability (89.4%) while maintaining escalation control and alliance coordination.",
+    "key_insight": "Iran's restraint signals preference for managed confrontation over all-out war, creating diplomatic opportunity that must be seized immediately.",
+    "implementation": "Requires immediate presidential decision, NSC coordination, allied consultation, and precise execution timeline."
+  },
+  "crisis_state": {
+    "regime_cohesion": 0.42,
+    "economic_stress": 0.95,
+    "nuclear_progress": 0.93,
+    "proxy_support": 0.18,
+    "external_support": 0.28,
+    "oil_price": 138.0,
+    "threat_level": "CRITICAL - 2-3 days to nuclear breakout"
+  },
+  "strategic_options": {
+    "halt_deter_diplomacy": {
+      "name": "Deterrence + Diplomacy",
+      "description": "Halt further strikes, maintain deterrent posture, pursue diplomatic settlement",
+      "expected_utility": -0.1908557030510633,
+      "confidence_interval": [
+        -0.6767616135741888,
+        0.29505020747206223
+      ],
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.9637806361276884,
+          "ci_lower": 0.9236098070663059,
+          "ci_upper": 0.9910641118541929,
+          "confidence_level": "Very High (\u00b15%)"
+        },
+        "limited_retaliation": {
+          "probability": 0.6505775695224028,
+          "ci_lower": 0.5800155986816499,
+          "ci_upper": 0.7453632445228162,
+          "confidence_level": "High (\u00b110%)"
+        },
+        "frozen_conflict": {
+          "probability": -1.8032564555697967,
+          "ci_lower": -2.5083632194538033,
+          "ci_upper": -1.206685059219116,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "full_war": {
+          "probability": 0.8108520633337535,
+          "ci_lower": 0.4141992266364698,
+          "ci_upper": 0.9808125292527495,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "nuclear_breakout": {
+          "probability": 0.37804618658595235,
+          "ci_lower": 0.08929883834987504,
+          "ci_upper": 0.9819077207212911,
+          "confidence_level": "Low (\u00b120%+)"
+        }
+      },
+      "risk_metrics": {
+        "war_risk": 0.8108520633337535,
+        "nuclear_risk": 0.37804618658595235,
+        "catastrophic_risk": 1.1888982499197058,
+        "success_probability": 1.6143582056500911,
+        "downside_risk": 0.9672829247569699,
+        "risk_level": "CRITICAL"
+      },
+      "repeated_game": {
+        "current_round": {
+          "signal": "Restraint demonstrates good faith",
+          "credibility": "Maintains deterrent threat",
+          "reputation": "Builds negotiation capital",
+          "future_rounds": "Creates cooperation precedent"
+        },
+        "reputation_impact": {
+          "us_credibility": "Maintained - shows restraint and strength",
+          "alliance_cohesion": "Enhanced - demonstrates consultation",
+          "iranian_perception": "Opportunity for face-saving resolution",
+          "regional_impact": "Stability-oriented signal"
+        },
+        "future_credibility": "HIGH - Success reinforces future threats",
+        "escalation_dynamics": {
+          "initial_response": "Measured escalation with clear limits",
+          "feedback_loop": "Positive feedback for de-escalation",
+          "stability": "High - both sides incentivized to cooperate",
+          "escalation_risk": "Low - multiple off-ramps available"
+        },
+        "learning_effects": {
+          "iranian_learning": "US restraint but resolve - encourages cooperation",
+          "us_learning": "Iranian responsiveness to balanced approach",
+          "regional_learning": "Diplomacy viable even in crises",
+          "adaptive_capacity": "High - builds trust for future negotiations"
+        }
+      },
+      "implementation": {
+        "name": "Deterrence + Diplomacy",
+        "description": "Halt further strikes, maintain deterrent posture, pursue diplomatic settlement",
+        "who_implements": {
+          "primary": "US State Department, NSC",
+          "military": "CENTCOM maintains readiness",
+          "intelligence": "CIA/NSA monitor compliance",
+          "diplomatic": "Special Envoy leads negotiations"
+        },
+        "what_actions": [
+          "Immediate ceasefire declaration with clear nuclear red lines",
+          "Back-channel engagement through Oman within 48 hours",
+          "Sanctions relief framework preparation",
+          "Allied coordination (Israel, UK, France, Germany)",
+          "IAEA verification regime design"
+        ],
+        "how_executed": {
+          "timeline": "0-72 hours initiation, 2-4 weeks framework",
+          "mechanisms": [
+            "Oman back-channel",
+            "IAEA mediation",
+            "P5+1 revival"
+          ],
+          "incentives": [
+            "Sanctions relief",
+            "Economic packages",
+            "Security guarantees"
+          ],
+          "verification": [
+            "Enhanced IAEA monitoring",
+            "Real-time centrifuge cameras",
+            "Uranium accounting"
+          ]
+        },
+        "repeated_game_logic": {
+          "signal": "Restraint demonstrates good faith",
+          "credibility": "Maintains deterrent threat",
+          "reputation": "Builds negotiation capital",
+          "future_rounds": "Creates cooperation precedent"
+        }
+      }
+    },
+    "halt_deter_ultimatum": {
+      "name": "Deterrence + Ultimatum",
+      "description": "Issue final ultimatum with credible military threat, short timeline",
+      "expected_utility": -0.1063258828835652,
+      "confidence_interval": [
+        -0.6400715298846535,
+        0.4274197641175231
+      ],
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.9085103806856761,
+          "ci_lower": 0.8164435274152338,
+          "ci_upper": 0.9760770594220276,
+          "confidence_level": "High (\u00b110%)"
+        },
+        "limited_retaliation": {
+          "probability": 0.5313262222700339,
+          "ci_lower": 0.4558248385161149,
+          "ci_upper": 0.639693398261489,
+          "confidence_level": "High (\u00b110%)"
+        },
+        "frozen_conflict": {
+          "probability": -1.465324554622771,
+          "ci_lower": -2.237827830254313,
+          "ci_upper": -0.7997594469492643,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "full_war": {
+          "probability": 0.6474417650811085,
+          "ci_lower": 0.16822738142832175,
+          "ci_upper": 0.9585988939820653,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "nuclear_breakout": {
+          "probability": 0.37804618658595235,
+          "ci_lower": 0.08929883834987504,
+          "ci_upper": 0.9819077207212911,
+          "confidence_level": "Low (\u00b120%+)"
+        }
+      },
+      "risk_metrics": {
+        "war_risk": 0.6474417650811085,
+        "nuclear_risk": 0.37804618658595235,
+        "catastrophic_risk": 1.0254879516670607,
+        "success_probability": 1.43983660295571,
+        "downside_risk": 0.8447252010674862,
+        "risk_level": "CRITICAL"
+      },
+      "repeated_game": {
+        "current_round": {
+          "signal": "Credible commitment to action",
+          "reputation": "Demonstrates resolve",
+          "future_deterrence": "Strengthens future threat credibility",
+          "escalation_control": "Forces Iranian decision, controls timing"
+        },
+        "reputation_impact": {
+          "us_credibility": "Strengthened if successful, damaged if ignored",
+          "alliance_cohesion": "Strained but manageable with consultation",
+          "iranian_perception": "Clear red lines, forces decision",
+          "regional_impact": "Demonstrates resolve, may encourage others"
+        },
+        "future_credibility": "HIGH - Success reinforces future threats",
+        "escalation_dynamics": {
+          "initial_response": "Clear escalation with defined endpoint",
+          "feedback_loop": "Binary - compliance or escalation",
+          "stability": "Moderate - depends on Iranian calculation",
+          "escalation_risk": "Moderate - ultimatum may force confrontation"
+        },
+        "learning_effects": {
+          "iranian_learning": "US red lines credible - must calculate carefully",
+          "us_learning": "Ultimatums effective if properly calibrated",
+          "regional_learning": "Clear boundaries prevent miscalculation",
+          "adaptive_capacity": "Moderate - establishes precedents"
+        }
+      },
+      "implementation": {
+        "name": "Deterrence + Ultimatum",
+        "description": "Issue final ultimatum with credible military threat, short timeline",
+        "who_implements": {
+          "primary": "President, SecDef, CJCS",
+          "military": "CENTCOM, Fifth Fleet, Air Force",
+          "intelligence": "Real-time monitoring",
+          "diplomatic": "Allied notification, not negotiation"
+        },
+        "what_actions": [
+          "72-hour ultimatum: halt enrichment or face military action",
+          "Visible military preparations (carrier deployment, bomber flights)",
+          "Allied ultimatum coordination (especially Israel)",
+          "Clear escalation ladder communication",
+          "Evacuation preparations for regional personnel"
+        ],
+        "how_executed": {
+          "timeline": "72-hour ultimatum, immediate military readiness",
+          "mechanisms": [
+            "Direct leadership communication",
+            "Military signaling",
+            "Alliance coordination"
+          ],
+          "escalation": [
+            "Graduated response plan",
+            "Proportional retaliation doctrine"
+          ],
+          "offramps": [
+            "Last-minute compliance acceptance",
+            "Third-party mediation"
+          ]
+        },
+        "repeated_game_logic": {
+          "signal": "Credible commitment to action",
+          "reputation": "Demonstrates resolve",
+          "future_deterrence": "Strengthens future threat credibility",
+          "escalation_control": "Forces Iranian decision, controls timing"
+        }
+      }
+    },
+    "expand_strikes_diplomacy": {
+      "name": "Escalation + Diplomacy",
+      "description": "Continue limited military pressure while pursuing negotiations",
+      "expected_utility": -0.34053013021038353,
+      "confidence_interval": [
+        -0.7945064209867192,
+        0.11344616056595219
+      ],
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.8591719598784193,
+          "ci_lower": 0.7295686857797536,
+          "ci_upper": 0.9611605016433852,
+          "confidence_level": "Moderate (\u00b115%)"
+        },
+        "limited_retaliation": {
+          "probability": 0.8342169659448995,
+          "ci_lower": 0.7896533930092812,
+          "ci_upper": 0.8883536474627423,
+          "confidence_level": "Very High (\u00b15%)"
+        },
+        "frozen_conflict": {
+          "probability": -2.0080385458200594,
+          "ci_lower": -2.6130063128256205,
+          "ci_upper": -1.6069470819922582,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "full_war": {
+          "probability": 0.9366034334107881,
+          "ci_lower": 0.7211861060209199,
+          "ci_upper": 0.9963587249450861,
+          "confidence_level": "Moderate (\u00b115%)"
+        },
+        "nuclear_breakout": {
+          "probability": 0.37804618658595235,
+          "ci_lower": 0.08929883834987504,
+          "ci_upper": 0.9819077207212911,
+          "confidence_level": "Low (\u00b120%+)"
+        }
+      },
+      "risk_metrics": {
+        "war_risk": 0.9366034334107881,
+        "nuclear_risk": 0.37804618658595235,
+        "catastrophic_risk": 1.3146496199967403,
+        "success_probability": 1.6933889258233188,
+        "downside_risk": 1.0615964523147459,
+        "risk_level": "CRITICAL"
+      },
+      "repeated_game": {
+        "current_round": {
+          "mixed_signals": "Combines cost imposition with negotiation",
+          "escalation_management": "Controlled pressure demonstrates resolve",
+          "bargaining_leverage": "Military pressure improves negotiating position",
+          "reputation_balance": "Shows both strength and flexibility"
+        },
+        "reputation_impact": {
+          "us_credibility": "Mixed signals may reduce clarity",
+          "alliance_cohesion": "Requires careful coordination",
+          "iranian_perception": "Confused signals, may misinterpret",
+          "regional_impact": "Escalation concerns, unclear intentions"
+        },
+        "future_credibility": "HIGH - Success reinforces future threats",
+        "escalation_dynamics": {
+          "initial_response": "Mixed signals create uncertainty",
+          "feedback_loop": "Unpredictable - conflicting incentives",
+          "stability": "Low - confusion may lead to miscalculation",
+          "escalation_risk": "High - unclear intentions dangerous"
+        },
+        "learning_effects": {
+          "iranian_learning": "US intentions unclear - prepare for worst",
+          "us_learning": "Mixed signals reduce effectiveness",
+          "regional_learning": "Uncertainty increases regional tensions",
+          "adaptive_capacity": "Low - confusion hinders future cooperation"
+        }
+      },
+      "implementation": {
+        "name": "Escalation + Diplomacy",
+        "description": "Continue limited military pressure while pursuing negotiations",
+        "who_implements": {
+          "primary": "NSC coordinates military-diplomatic balance",
+          "military": "Targeted strikes on non-nuclear facilities",
+          "intelligence": "BDA and escalation monitoring",
+          "diplomatic": "Parallel track negotiations"
+        },
+        "what_actions": [
+          "Limited strikes on Revolutionary Guard facilities",
+          "Cyber operations against nuclear program",
+          "Simultaneous diplomatic outreach",
+          "Graduated pressure campaign",
+          "Regional ally coordination"
+        ],
+        "how_executed": {
+          "timeline": "Immediate military action, parallel diplomacy",
+          "targets": [
+            "IRGC facilities",
+            "Proxy command centers",
+            "Naval assets"
+          ],
+          "constraints": [
+            "Avoid civilian casualties",
+            "Maintain escalation control"
+          ],
+          "diplomacy": [
+            "Track II engagement",
+            "Regional mediators",
+            "Economic incentives"
+          ]
+        },
+        "repeated_game_logic": {
+          "mixed_signals": "Combines cost imposition with negotiation",
+          "escalation_management": "Controlled pressure demonstrates resolve",
+          "bargaining_leverage": "Military pressure improves negotiating position",
+          "reputation_balance": "Shows both strength and flexibility"
+        }
+      }
+    },
+    "expand_strikes_ultimatum": {
+      "name": "Escalation + Ultimatum",
+      "description": "Intensify military operations, issue ultimatum for complete capitulation",
+      "expected_utility": -0.39307961105964734,
+      "confidence_interval": [
+        -0.9041474883816838,
+        0.11798826626238906
+      ],
+      "outcomes": {
+        "negotiated_deal": {
+          "probability": 0.7006747229440689,
+          "ci_lower": 0.49810885275567396,
+          "ci_upper": 0.9010283863139593,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "limited_retaliation": {
+          "probability": 0.7536755811963367,
+          "ci_lower": 0.6948383148427928,
+          "ci_upper": 0.8283578723973257,
+          "confidence_level": "High (\u00b110%)"
+        },
+        "frozen_conflict": {
+          "probability": -1.6862145219654858,
+          "ci_lower": -2.3239092195902926,
+          "ci_upper": -1.1298079038143385,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "full_war": {
+          "probability": 0.8538180312391281,
+          "ci_lower": 0.4357153789678447,
+          "ci_upper": 0.9921074088638863,
+          "confidence_level": "Low (\u00b120%+)"
+        },
+        "nuclear_breakout": {
+          "probability": 0.37804618658595235,
+          "ci_lower": 0.08929883834987504,
+          "ci_upper": 0.9819077207212911,
+          "confidence_level": "Low (\u00b120%+)"
+        }
+      },
+      "risk_metrics": {
+        "war_risk": 0.8538180312391281,
+        "nuclear_risk": 0.37804618658595235,
+        "catastrophic_risk": 1.2318642178250805,
+        "success_probability": 1.4543503041404056,
+        "downside_risk": 0.9995074006860007,
+        "risk_level": "CRITICAL"
+      },
+      "repeated_game": {
+        "current_round": {
+          "commitment_strategy": "Burn bridges to force resolution",
+          "reputation_costs": "High stakes for future credibility",
+          "escalation_spiral": "High risk of uncontrolled escalation",
+          "winner_takes_all": "No middle ground, complete victory or defeat"
+        },
+        "reputation_impact": {
+          "us_credibility": "All-in commitment, high stakes",
+          "alliance_cohesion": "Severely strained without consultation",
+          "iranian_perception": "Existential threat, desperate measures likely",
+          "regional_impact": "High escalation, arms race acceleration"
+        },
+        "future_credibility": "HIGH - Success reinforces future threats",
+        "escalation_dynamics": {
+          "initial_response": "Maximum pressure with confrontational stance",
+          "feedback_loop": "Negative spiral likely",
+          "stability": "Very Low - cornered opponent unpredictable",
+          "escalation_risk": "Very High - limited room for maneuver"
+        },
+        "learning_effects": {
+          "iranian_learning": "US committed to regime change - survival at stake",
+          "us_learning": "Maximum pressure may backfire",
+          "regional_learning": "Arms race and confrontation normalized",
+          "adaptive_capacity": "Very Low - sets adversarial pattern"
+        }
+      },
+      "implementation": {
+        "name": "Escalation + Ultimatum",
+        "description": "Intensify military operations, issue ultimatum for complete capitulation",
+        "who_implements": {
+          "primary": "POTUS, War Cabinet",
+          "military": "Joint Chiefs, CENTCOM, STRATCOM",
+          "intelligence": "Full ISR deployment",
+          "diplomatic": "Alliance management, minimal negotiation"
+        },
+        "what_actions": [
+          "Expanded strikes on nuclear facilities",
+          "Target Iranian leadership and command structure",
+          "Naval blockade of Iranian ports",
+          "Ultimate demand: complete nuclear program dismantlement",
+          "Prepare for regime change scenario"
+        ],
+        "how_executed": {
+          "timeline": "Immediate escalation, 48-hour ultimatum",
+          "targets": [
+            "All nuclear facilities",
+            "Leadership bunkers",
+            "Military command"
+          ],
+          "scope": [
+            "Air campaign",
+            "Naval operations",
+            "Cyber warfare"
+          ],
+          "endstate": [
+            "Complete program elimination",
+            "Regime capitulation or change"
+          ]
+        },
+        "repeated_game_logic": {
+          "commitment_strategy": "Burn bridges to force resolution",
+          "reputation_costs": "High stakes for future credibility",
+          "escalation_spiral": "High risk of uncontrolled escalation",
+          "winner_takes_all": "No middle ground, complete victory or defeat"
+        }
+      }
+    }
+  },
+  "optimal_strategy": "halt_deter_ultimatum",
+  "repeated_game_dynamics": {
+    "game_structure": {
+      "nature": "Infinite horizon repeated game with incomplete information",
+      "players": [
+        "United States",
+        "Iran",
+        "Israel (limited autonomy)"
+      ],
+      "information": "Private information about resolve, capabilities, domestic constraints",
+      "discount_factor": "High (0.9+) - long-term strategic implications"
+    },
+    "equilibrium_concepts": {
+      "current_equilibrium": "Separating equilibrium - types revealed through actions",
+      "stability": "Unstable - nuclear timeline creates finite horizon pressure",
+      "multiple_equilibria": "Yes - coordination problem on which equilibrium",
+      "focal_point": "Deterrence + Diplomacy - historically successful pattern"
+    },
+    "reputation_dynamics": {
+      "us_reputation": "Credibility tested - must demonstrate resolve without overcommitment",
+      "iran_reputation": "Signaling rationality through advance warning",
+      "israel_reputation": "Demonstrated capability, timing preferences unclear",
+      "regional_reputation": "Watching for precedent-setting behavior"
+    },
+    "learning_and_adaptation": {
+      "bayesian_updating": "All players revising beliefs about opponent types",
+      "adaptive_strategies": "Strategies evolving based on observed behavior",
+      "information_revelation": "Actions reveal private information progressively",
+      "strategic_teaching": "Current actions shape future interaction patterns"
+    },
+    "temporal_dynamics": {
+      "time_pressure": "Nuclear timeline creates urgency, may break repeated game logic",
+      "commitment_problems": "Difficulty credibly committing to long-term strategies",
+      "renegotiation_proofness": "Agreements must be self-enforcing in future periods",
+      "trigger_strategies": "Clear escalation triggers for maintaining cooperation"
+    },
+    "strategic_implications": {
+      "cooperation_sustainability": "Possible if both sides value future interactions",
+      "punishment_mechanisms": "Credible deterrent maintains cooperative equilibrium",
+      "forgiveness_strategies": "Necessary to return to cooperation after conflicts",
+      "coordination_mechanisms": "Back-channel communication essential for equilibrium selection"
+    }
+  },
+  "implementation_framework": {
+    "immediate_actions": {
+      "timeline": "0-24 hours",
+      "critical_decisions": [
+        "72-hour ultimatum: halt enrichment or face military action",
+        "Visible military preparations (carrier deployment, bomber flights)",
+        "Allied ultimatum coordination (especially Israel)",
+        "Clear escalation ladder communication",
+        "Evacuation preparations for regional personnel"
+      ],
+      "decision_makers": {
+        "primary": "President, SecDef, CJCS",
+        "military": "CENTCOM, Fifth Fleet, Air Force",
+        "intelligence": "Real-time monitoring",
+        "diplomatic": "Allied notification, not negotiation"
+      },
+      "coordination_required": [
+        "Presidential authorization",
+        "NSC coordination",
+        "Allied consultation",
+        "Military preparation"
+      ],
+      "communication_strategy": "Coordinated messaging through diplomatic and military channels"
+    },
+    "short_term_execution": {
+      "timeline": "1-7 days",
+      "key_milestones": {
+        "timeline": "72-hour ultimatum, immediate military readiness",
+        "mechanisms": [
+          "Direct leadership communication",
+          "Military signaling",
+          "Alliance coordination"
+        ],
+        "escalation": [
+          "Graduated response plan",
+          "Proportional retaliation doctrine"
+        ],
+        "offramps": [
+          "Last-minute compliance acceptance",
+          "Third-party mediation"
+        ]
+      },
+      "success_metrics": [
+        "Iranian response assessment",
+        "Alliance cohesion maintenance",
+        "Regional stability preservation",
+        "Escalation control demonstration"
+      ],
+      "contingency_triggers": [
+        "Iranian nuclear acceleration",
+        "Significant escalation",
+        "Alliance breakdown",
+        "Regional spillover"
+      ]
+    },
+    "medium_term_strategy": {
+      "timeline": "1-4 weeks",
+      "strategic_objectives": [
+        "Direct leadership communication",
+        "Military signaling",
+        "Alliance coordination"
+      ],
+      "institutional_mechanisms": [
+        "Verification protocols",
+        "Sanctions relief frameworks",
+        "Security assurances",
+        "Economic packages"
+      ],
+      "risk_mitigation": [
+        "Escalation management",
+        "Alliance coordination",
+        "Regional engagement",
+        "Domestic support building"
+      ]
+    },
+    "long_term_framework": {
+      "timeline": "3-12 months",
+      "strategic_vision": {
+        "signal": "Credible commitment to action",
+        "reputation": "Demonstrates resolve",
+        "future_deterrence": "Strengthens future threat credibility",
+        "escalation_control": "Forces Iranian decision, controls timing"
+      },
+      "institutional_building": [
+        "Regional security architecture",
+        "Nuclear governance regimes",
+        "Economic integration",
+        "Conflict prevention mechanisms"
+      ],
+      "sustainability_factors": [
+        "Domestic political support",
+        "Alliance burden-sharing",
+        "Regional buy-in",
+        "International legitimacy"
+      ]
+    }
+  },
+  "risk_assessment": {
+    "composite_risk_score": 0.8460000000000001,
+    "risk_level": "CRITICAL",
+    "escalation_drivers": {
+      "nuclear_timeline": {
+        "level": 1.0,
+        "description": "2-3 days to nuclear weapon capability",
+        "trend": "CRITICAL - Immediate action required"
+      },
+      "regime_desperation": {
+        "level": 0.5800000000000001,
+        "description": "Weakened regime may take desperate measures",
+        "trend": "HIGH - Unpredictable decision-making likely"
+      },
+      "economic_pressure": {
+        "level": 0.95,
+        "description": "Severe sanctions create survival pressure",
+        "trend": "MAXIMUM - No room for additional pressure"
+      },
+      "regional_instability": {
+        "level": 0.8200000000000001,
+        "description": "Proxy networks degraded but resilient",
+        "trend": "MODERATE - Manageable with coordination"
+      }
+    },
+    "risk_scenarios": {
+      "immediate_nuclear_breakout": {
+        "probability": 0.25,
+        "timeline": "2-3 days",
+        "triggers": [
+          "Additional strikes",
+          "Regime survival threat",
+          "Diplomatic failure"
+        ],
+        "impact": "CATASTROPHIC - Regional arms race, Israeli preemption"
+      },
+      "regime_collapse": {
+        "probability": 0.15,
+        "timeline": "3-6 months",
+        "triggers": [
+          "Economic collapse",
+          "Popular uprising",
+          "Military coup"
+        ],
+        "impact": "HIGH - Nuclear security concerns, refugee crisis"
+      },
+      "regional_war": {
+        "probability": 0.35,
+        "timeline": "1-4 weeks",
+        "triggers": [
+          "Escalation spiral",
+          "Miscalculation",
+          "Proxy activation"
+        ],
+        "impact": "SEVERE - Oil disruption, humanitarian crisis"
+      },
+      "prolonged_standoff": {
+        "probability": 0.25,
+        "timeline": "6-18 months",
+        "triggers": [
+          "Diplomatic stalemate",
+          "Partial compliance",
+          "Alliance fractures"
+        ],
+        "impact": "MODERATE - Gradual proliferation, regional tension"
+      }
+    },
+    "key_vulnerabilities": [
+      "Nuclear timeline pressure (2-3 days)",
+      "Regime survival calculations",
+      "Economic desperation effects",
+      "Regional spillover potential"
+    ],
+    "stabilizing_factors": [
+      "Iran's advance warning signal",
+      "International diplomatic pressure",
+      "Economic interdependence",
+      "Mutual assured destruction logic"
+    ]
+  },
+  "timeline_analysis": {
+    "critical_events": [
+      {
+        "date": "2025-06-21",
+        "event": "Israel/US conduct coordinated strikes on Iranian nuclear facilities",
+        "facilities": [
+          "Fordow underground complex",
+          "Natanz enrichment",
+          "Isfahan conversion"
+        ],
+        "impact": "Significant damage but core capabilities intact"
+      },
+      {
+        "date": "2025-06-23",
+        "event": "Iran retaliates with missile strike on Al Udeid Air Base, Qatar",
+        "details": "14 missiles fired, advance warning given, no US casualties",
+        "signal": "Controlled escalation - demonstrating capability while avoiding maximum escalation"
+      },
+      {
+        "date": "2025-06-24",
+        "event": "CRITICAL DECISION POINT",
+        "window": "72 hours for US strategic response",
+        "options": "All four strategic pathways remain viable"
+      },
+      {
+        "date": "2025-06-26",
+        "event": "Nuclear breakout threshold",
+        "risk": "Iran achieves first weapon capability",
+        "implications": "Dramatic shift in regional balance, Israeli action highly likely"
+      }
+    ],
+    "decision_cascades": {
+      "immediate": "0-72 hours: Strategy selection determines all subsequent outcomes",
+      "short_term": "3-7 days: Implementation determines Iranian response pattern",
+      "medium_term": "1-4 weeks: Establishes new equilibrium or escalation spiral",
+      "long_term": "1-6 months: Regional security architecture reshaping"
+    }
+  },
+  "intelligence_sources": [
+    {
+      "title": "Iran launches missiles at US military base in Qatar in retaliation for American bombing",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/israel-iran-war-nuclear-trump-bomber-news-06-23-2025",
+      "date": "2025-06-23",
+      "credibility": "High",
+      "key_finding": "14 missiles fired at Al Udeid, advance warning provided"
+    },
+    {
+      "title": "Analysis of IAEA Iran Verification and Monitoring Report \u2014 May 2025",
+      "source": "Institute for Science and International Security",
+      "url": "https://isis-online.org/isis-reports/analysis-of-iaea-iran-verification-and-monitoring-report-may-2025/",
+      "date": "2025-05-15",
+      "credibility": "High",
+      "key_finding": "408kg of 60% enriched uranium stockpile confirmed"
+    },
+    {
+      "title": "Iran says it will create a new uranium enrichment facility after a vote at the IAEA",
+      "source": "NPR",
+      "url": "https://www.npr.org/2025/06/12/nx-s1-5431395/iran-nuclear-enrichment-un-compliance",
+      "date": "2025-06-12",
+      "credibility": "High",
+      "key_finding": "Iran announces third enrichment site in response to IAEA censure"
+    },
+    {
+      "title": "What is Iran's Fordow nuclear facility that the US has bombed?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2025/6/19/what-is-irans-fordow-nuclear-facility-and-could-us-weapons-destroy-it",
+      "date": "2025-06-19",
+      "credibility": "Medium-High",
+      "key_finding": "Fordow underground facility assessment and vulnerability analysis"
+    }
+  ],
+  "uncertainty_bounds": {},
+  "decision_tree": {}
+}
