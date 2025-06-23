@@ -2,7 +2,7 @@
 
 An advanced Bayesian game theory system with MCMC modeling, explainable AI, and real-time strategic analysis for understanding complex geopolitical interactions.
 
-![Strategy Comparison](graphics/strategy_matrix_x.png)
+![MCMC Strategy Analysis](graphics/mcmc_uncertainty_analysis.png)
 
 ## 🎯 Overview
 
@@ -13,7 +13,10 @@ This project delivers a sophisticated AI-powered strategic analysis platform tha
 - **🔄 Dynamic Belief Updating** - Evidence integration with KL-divergence tracking
 - **🎯 Robust Strategy Evaluation** - Minimax regret analysis under parameter uncertainty
 
-![Escalation Analysis](graphics/escalation_ladder_x.png)
+> **📊 [READ THE FULL STRATEGIC ANALYSIS REPORT](STRATEGIC_ANALYSIS_REPORT.md)**  
+> Comprehensive game theory assessment with MCMC modeling and policy recommendations
+
+![Bayesian Evolution](graphics/bayesian_belief_evolution.png)
 
 ## 🚀 Quick Start
 
@@ -60,7 +63,7 @@ uv run python simple_example.py
 
 ## 📊 Model Architecture
 
-![Market Analysis](graphics/market_indicators_x.png)
+![Enhanced Escalation Heatmap](graphics/enhanced_escalation_heatmap.png)
 
 ### Core Components
 
@@ -84,7 +87,7 @@ uv run python simple_example.py
    - Minimax regret analysis
    - Robustness scoring across parameter space
 
-![Game Theory Matrix](graphics/payoff_matrix_x.png)
+![Monte Carlo Outcomes](graphics/monte_carlo_outcomes.png)
 
 ## 🎮 Key Features
 
@@ -99,7 +102,7 @@ The web application now features a sophisticated explainable AI system that prov
 - **🎭 Scenario Robustness** testing across different conditions
 - **🔬 Evidence Integration** with real-time belief updating
 
-![Two-Level Game Analysis](graphics/two_level_game_x.png)
+![Game Theory Decision Tree](graphics/game_theory_decision_tree.png)
 
 ## 🎮 Usage Guide
 
