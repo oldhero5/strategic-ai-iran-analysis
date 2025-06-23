@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  game-theory-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - ./graphics:/app/graphics
+    environment:
+      - PYTHONPATH=/app
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ENABLE_CORS=false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add a development service with hot reload
+  dev:
+    build: .
+    ports:
+      - "8502:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+      - STREAMLIT_SERVER_FILE_WATCHER_TYPE=poll
+    command: ["uv", "run", "streamlit", "run", "frontend/app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.runOnSave=true"]
+    profiles:
+      - dev

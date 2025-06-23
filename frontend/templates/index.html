@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Theory: Iran-Israel-US Strategic Analysis</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="icon">♟️</span>
+                    Game Theory: Iran-Israel-US Strategic Analysis
+                </h1>
+                <p class="subtitle">Interactive model based on June 2025 conflict research</p>
+            </div>
+            <div class="header-controls">
+                <button id="export-btn" class="btn btn-primary">
+                    <i class="fas fa-download"></i>
+                    Export Graphics
+                </button>
+            </div>
+        </header>
+
+        <!-- Control Panel -->
+        <section class="control-panel">
+            <h2 class="section-title">
+                <i class="fas fa-sliders-h"></i>
+                Game Variables
+            </h2>
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label for="regime-cohesion">
+                        <i class="fas fa-building"></i>
+                        Iranian Regime Cohesion
+                    </label>
+                    <input type="range" id="regime-cohesion" min="0" max="1" step="0.05" value="0.4">
+                    <span class="value-display" id="regime-cohesion-value">0.4</span>
+                </div>
+
+                <div class="control-group">
+                    <label for="economic-stress">
+                        <i class="fas fa-chart-line-down"></i>
+                        Economic Stress Level
+                    </label>
+                    <input type="range" id="economic-stress" min="0" max="1" step="0.05" value="0.9">
+                    <span class="value-display" id="economic-stress-value">0.9</span>
+                </div>
+
+                <div class="control-group">
+                    <label for="proxy-support">
+                        <i class="fas fa-link"></i>
+                        Proxy Network Support
+                    </label>
+                    <input type="range" id="proxy-support" min="0" max="1" step="0.05" value="0.1">
+                    <span class="value-display" id="proxy-support-value">0.1</span>
+                </div>
+
+                <div class="control-group">
+                    <label for="oil-price">
+                        <i class="fas fa-oil-can"></i>
+                        Oil Price (USD/barrel)
+                    </label>
+                    <input type="range" id="oil-price" min="50" max="150" step="1" value="97">
+                    <span class="value-display" id="oil-price-value">$97</span>
+                </div>
+
+                <div class="control-group">
+                    <label for="external-support">
+                        <i class="fas fa-globe"></i>
+                        External Support (China/Russia)
+                    </label>
+                    <input type="range" id="external-support" min="0" max="1" step="0.05" value="0.2">
+                    <span class="value-display" id="external-support-value">0.2</span>
+                </div>
+
+                <div class="control-group">
+                    <label for="nuclear-progress">
+                        <i class="fas fa-radiation"></i>
+                        Nuclear Program Progress
+                    </label>
+                    <input type="range" id="nuclear-progress" min="0" max="1" step="0.05" value="0.7">
+                    <span class="value-display" id="nuclear-progress-value">0.7</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Visualizations -->
+        <main class="main-content">
+            <!-- Strategy Analysis -->
+            <section class="viz-section">
+                <h2 class="section-title">
+                    <i class="fas fa-chess"></i>
+                    Strategic Analysis
+                </h2>
+                <div class="viz-grid">
+                    <div class="viz-container" id="strategy-comparison">
+                        <h3>Strategy Comparison</h3>
+                        <div class="chart-container"></div>
+                    </div>
+                    <div class="viz-container" id="payoff-matrix">
+                        <h3>Player Preference Matrix</h3>
+                        <div class="chart-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Outcome Analysis -->
+            <section class="viz-section">
+                <h2 class="section-title">
+                    <i class="fas fa-target"></i>
+                    Outcome Probabilities
+                </h2>
+                <div class="viz-container full-width" id="outcome-probabilities">
+                    <div class="chart-container"></div>
+                </div>
+            </section>
+
+            <!-- Risk Dashboard -->
+            <section class="viz-section">
+                <h2 class="section-title">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Risk Dashboard
+                </h2>
+                <div class="viz-container full-width" id="escalation-heatmap">
+                    <h3>🔥 Escalation Probability Heatmap</h3>
+                    <div class="chart-container"></div>
+                </div>
+                <div class="viz-grid">
+                    <div class="viz-container" id="escalation-ladder">
+                        <h3>Escalation Ladder</h3>
+                        <div class="chart-container"></div>
+                    </div>
+                    <div class="viz-container" id="market-indicators">
+                        <h3>Market Impact</h3>
+                        <div class="chart-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MCMC Explainable AI Analysis -->
+            <section class="viz-section">
+                <h2 class="section-title">
+                    <i class="fas fa-brain"></i>
+                    AI Strategic Analysis & Explanation
+                </h2>
+                <div class="viz-container full-width" id="explainable-ai">
+                    <!-- ExplainableAI component will be inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Based on game-theoretic analysis of Iran-Israel-US strategic interactions</p>
+            <div class="footer-links">
+                <a href="#" id="about-link">About the Model</a>
+                <a href="#" id="methodology-link">Methodology</a>
+                <a href="#" id="data-link">Data Sources</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+        <p>Calculating strategic outcomes...</p>
+    </div>
+
+    <!-- Export Modal -->
+    <div id="export-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Export Graphics</h2>
+            <div class="export-options">
+                <button class="export-btn" data-viz="strategy-comparison">Strategy Comparison</button>
+                <button class="export-btn" data-viz="payoff-matrix">Payoff Matrix</button>
+                <button class="export-btn" data-viz="outcome-probabilities">Outcome Probabilities</button>
+                <button class="export-btn" data-viz="escalation-ladder">Escalation Ladder</button>
+                <button class="export-btn" data-viz="all">Export All</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/gametheory.js"></script>
+    <script src="/static/js/mcmc_integration.js"></script>
+    <script src="/static/js/explainable_ai.js"></script>
+    <script src="/static/js/visualizations.js"></script>
+    <script src="/static/js/creative-visualizations.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
